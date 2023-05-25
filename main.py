@@ -1451,9 +1451,3 @@ def create_keyboard(user_id):
 
 if __name__ == '__main__': # если имя файла main то это основной файл с которого начнется работа 
     executor.start_polling(dp, skip_updates=True)
-
-
-# sub_status = get_subscription(user_id)
-# if sub_status == 0:
-#     await message.reply("Ошибка у вас нет подписки\n Чтобы получить ее сделайте Рамазану минет", parse_mode=ParseMode.HTML) # вывод сообщения
-# else:
